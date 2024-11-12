@@ -1,24 +1,46 @@
-body{
-    height: 100vh;
-    
+/* Reset margin dan padding untuk menghindari perbedaan default pada browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.judul{
-    background-color:rgb(56, 178, 22);
-    color: antiquewhite;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
 
-}
-.isi{
-    background-color: coral;
-    color: antiquewhite;
+/* Mengatur gaya dasar untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(Hospital_cinere.jpg);
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    margin-top: -1opx;
-    margin-left: 300px;
+    min-height: 100vh;
 }
-.luar{
-    background: blue;
+
+/* Kontainer luar */
+.luar {
+    width: 90%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Gaya untuk judul */
+.judul h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk pesan konfirmasi */
+.isi {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border: 1px solid #b3daff;
+    border-radius: 5px;
 }
