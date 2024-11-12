@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Pasien</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h2>Form Pendaftaran Pasien</h2>
+    <form id="patientForm">
+        <label for="name">Nama Lengkap:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="age">Umur:</label>
+        <input type="number" id="age" name="age" required><br>
+
+        <label for="gender">Jenis Kelamin:</label>
+        <select id="gender" name="gender" required>
+            <option value="">--Pilih--</option>
+            <option value="Pria">Pria</option>
+            <option value="Wanita">Wanita</option>
+        </select><br>
+
+        <label for="address">Alamat:</label>
+        <input type="text" id="address" name="address" required><br>
+
+        <button type="submit">Daftar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    
+}
+.judul{
+    background-color:crimson;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+.isi{
+    background-color: coral;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: -1opx;
+    margin-left: 300px;
+}
+.luar{
+    background: blue;
+}
