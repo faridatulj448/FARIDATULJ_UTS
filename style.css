@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f7f7f7;
+    background-image: url("gambar.jpg");
     margin-top: 50px;
 }
 
