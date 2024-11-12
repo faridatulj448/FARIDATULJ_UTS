@@ -30,17 +30,17 @@ body {
 /* Gaya untuk judul */
 .judul h2 {
     font-size: 24px;
-    color: #333;
+    color: black;
     margin-bottom: 20px;
 }
 
 /* Gaya untuk pesan konfirmasi */
 .isi {
     font-size: 18px;
-    color: #555;
+    color: black (0, 85, 255);
     line-height: 1.5;
     padding: 15px;
-    background-color: #f0f8ff;
-    border: 1px solid #b3daff;
+    background-color: seagreen;
+    border: 1px solid black;
     border-radius: 5px;
 }
