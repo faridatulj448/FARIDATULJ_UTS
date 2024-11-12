@@ -3,16 +3,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("gambar.jpg");
+    background-color: black;
     margin-top: 50px;
 }
 
 h2 {
-    color: #333;
+    color: #333333;
 }
 
 form {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -41,7 +41,7 @@ button:hover {
 
 #message {
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 5px;
     color: #333;
     text-align: center;
 }
