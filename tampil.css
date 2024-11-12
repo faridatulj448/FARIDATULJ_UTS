@@ -36,10 +36,10 @@ body {
 /* Gaya untuk pesan konfirmasi */
 .isi {
     font-size: 15px;
-    color: seagreen (0, 85, 255);
+    color: black (0, 85, 255);
     line-height: 1.5;
     padding: 15px;
-    background-color: black;
-    border: 1px solid sienna;
+    background-color: seagreen;
+    border: 1px solid black;
     border-radius: 5px;
 }
